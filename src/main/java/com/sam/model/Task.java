@@ -29,5 +29,36 @@ public class Task {
 	
 	private Date dueDate;
 	
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public Date getDueDate() {
+		return dueDate;
+	}
+	public void setDueDate(Date dueDate) {
+		this.dueDate = dueDate;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
 	private String description;
+	
+	public Long getId() {
+		return this.id;
+	}
+	public void setId(Long id) {
+		this.id=id;
+	}
 }
